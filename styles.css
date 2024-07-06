@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+html, body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(275deg, #ffffff 0%, #D7E1EC 50%);
+    place-items: center;
+}
+
+.all .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.all .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 2.21;
+}
+
+
+.all .button:nth-child(1):hover .icon{
+    background: linear-gradient(45deg,#ffdc7d 0%, #f46f30 27%, #c32aa3 58%, #fc58c9 98%);
+}
+
+
+.all .button:nth-child(2):hover .icon{
+    background: #3b5998;
+}
+
+
+.all .button:nth-child(3):hover .icon{
+    background: #Fffc00;
+}
+
+
+.all .button:nth-child(4):hover .icon{
+    background: #0A66C2;
+}
+
+
+.all .button:nth-child(5):hover .icon{
+    background: #333;
+}
+
+.all .button:hover{
+    width: 230px;
+}
+
+.all .button .icon i{
+    font-size: 27px;
+    line-height: 2.21;
+    transition: all 0.5s ease-out;
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.all .button:hover .icon i{
+    color: white;
+}
+
+
+.all .button:nth-child(3) .icon i{
+    color: black;
+}
+
+.all .button span{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 2.21;
+    margin-left: 15px;
+    transition: all 0.5s ease-out;
+}
+
+
+
+.all .button:nth-child(1):hover span{
+    color: black;
+}
+
+
+.all .button:nth-child(2):hover span{
+    color: black;
+}
+
+
+.all .button:nth-child(3):hover span{
+    color: black;
+}
+
+
+.all .button:nth-child(4):hover span{
+    color: black;
+}
+
+
+.all .button:nth-child(5):hover span{
+    color: black;
+}
